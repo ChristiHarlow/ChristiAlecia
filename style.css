@@ -1,0 +1,89 @@
+/* https://coolors.co/palette/EDE342-F2BF6C-F69A97-FB76C1-FF51EB */
+
+section#intro {
+    background-color: #ede342;
+    color: black;
+    height: 60vh;
+}
+
+@media only screen and (max-width: 500px) {
+    #intro h1 {
+        animation: fadein ease-in 1s;
+    }
+}
+
+#intro h1 {
+    font-size: 60px;
+}
+
+#intro h3 {
+    font-size: 60px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    opacity: 0;
+    animation-name: fadein;
+    animation-delay: 1s;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+#intro code {
+    font-size: 100px;
+    font-weight: 400;
+    opacity: 0;
+    color: black;
+    animation-name: fadein;
+    animation-delay: 4s;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+#intro #downArrow {
+    font-size: 40px;
+    position: absolute;
+    bottom: 30px;
+    color: #dfbe99;
+    opacity: 0;
+    animation-name: fadein;
+    animation-delay: 5s;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+#intro #downArroow:hover {
+    color: #729ea1;
+}
+
+section#about {
+    font-size: 45px;
+    font-weight: 300;
+    background-color: #fb76c1;
+    color: black;
+    padding: 30px;
+}
+
+h3 {
+    font-size: 60px;
+}
+
+p {
+    font-size: 30px;
+}
+#expand {
+    color: black;
+    font-size: 100px;
+}
+
+img {
+    max-width: 100%;
+    height: 100%;
+    border: 5px solid #ff51eb;
+}
