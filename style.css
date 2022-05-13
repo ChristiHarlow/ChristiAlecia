@@ -31,7 +31,7 @@ section#intro {
     font-size: 100px;
     font-weight: 400;
     opacity: 0;
-    color: black;
+    color: #ff51eb;
     animation-name: fadein;
     animation-delay: 4s;
     animation-duration: 2s;
@@ -85,5 +85,5 @@ p {
 img {
     max-width: 100%;
     height: 100%;
-    border: 5px solid #ff51eb;
+    border: 5px solid #f2bf6c;
 }
