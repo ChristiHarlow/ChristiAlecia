@@ -22,50 +22,31 @@ section#intro {
     font-size: 50px;
     margin-top: 20px;
     margin-bottom: 20px;
-    opacity: 0;
-    animation-name: fadein;
-    animation-delay: 1s;
-    animation-duration: 2s;
-    animation-fill-mode: forwards;
 }
 
 #intro code {
     font-size: 100px;
     font-weight: 400;
-    opacity: 0;
     color: #ff51eb;
-    animation-name: fadein;
-    animation-delay: 4s;
-    animation-duration: 2s;
-    animation-fill-mode: forwards;
 }
 
 #beach {
-    font-size: 100px;
+    font-size: 50px;
 }
 
 #tea {
-    font-size: 100px;
+    font-size: 50px;
 }
 #walk {
-    font-size: 100px;
+    font-size: 50px;
 }
 
 #yoga {
-    font-size: 100px;
+    font-size: 50px;
 }
 
 #bike {
-    font-size: 100px;
-}
-
-@keyframes fadein {
-    from {
-        opacity: 0;
-    }
-    to {
-        opacity: 1;
-    }
+    font-size: 50px;
 }
 
 #intro #downArrow {
@@ -74,10 +55,6 @@ section#intro {
     bottom: 30px;
     color: #dfbe99;
     opacity: 0;
-    animation-name: fadein;
-    animation-delay: 5s;
-    animation-duration: 2s;
-    animation-fill-mode: forwards;
 }
 #intro #downArroow:hover {
     color: #729ea1;
@@ -98,22 +75,20 @@ h3 {
 p {
     font-size: 30px;
 }
+
+h1 {
+    text-align: center;
+}
 #expand {
     color: black;
     font-size: 50px;
 }
 
-h1 {
-    text-align: center;
-}
-.row {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 0;
-}
 img {
-    border: 10px solid #ff51eb;
-    padding: 30px;
+    border: 5px solid #ede342;
+    border-radius: 4px;
+    padding: 20px;
+    width: 50px;
 }
 
 footer {
