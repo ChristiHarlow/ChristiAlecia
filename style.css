@@ -102,17 +102,23 @@ p {
     color: black;
     font-size: 50px;
 }
+
+h1 {
+    text-align: center;
+}
 .row {
     display: flex;
     flex-wrap: wrap;
     padding: 0;
 }
 img {
-    border: 5px solid #ff51eb;
+    border: 10px solid #ff51eb;
+    padding: 30px;
 }
 
 footer {
     background-color: #ede342;
     color: #ff51eb;
     padding: 20px;
+    text-align: center;
 }
