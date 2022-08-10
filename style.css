@@ -3,49 +3,48 @@
 section#intro {
     background-color: #ede342;
     color: black;
+    height: 60vh;
 }
 
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-    .column {
-        flex: 100%;
-        max-width: 100%;
+@media only screen and (max-width: 500px) {
+    #intro h1 {
+        animation: fadein ease-in 1s;
     }
 }
 
 #intro h1 {
-    font-size: 50px;
+    font-size: 60px;
 }
 
 #intro h3 {
-    font-size: 50px;
+    font-size: 60px;
     margin-top: 20px;
     margin-bottom: 20px;
+    opacity: 0;
+    animation-name: fadein;
+    animation-delay: 1s;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
 }
 
 #intro code {
     font-size: 100px;
     font-weight: 400;
-    color: #ff51eb;
+    opacity: 0;
+    color: black;
+    animation-name: fadein;
+    animation-delay: 4s;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
 }
 
-#beach {
-    font-size: 50px;
-}
-
-#tea {
-    font-size: 50px;
-}
-#walk {
-    font-size: 50px;
-}
-
-#yoga {
-    font-size: 50px;
-}
-
-#bike {
-    font-size: 50px;
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }
 
 #intro #downArrow {
@@ -54,6 +53,10 @@ section#intro {
     bottom: 30px;
     color: #dfbe99;
     opacity: 0;
+    animation-name: fadein;
+    animation-delay: 5s;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
 }
 #intro #downArroow:hover {
     color: #729ea1;
@@ -68,35 +71,19 @@ section#about {
 }
 
 h3 {
-    font-size: 30px;
+    font-size: 60px;
 }
 
 p {
     font-size: 30px;
 }
-
-h1 {
-    text-align: center;
-}
 #expand {
     color: black;
-    font-size: 50px;
+    font-size: 100px;
 }
 
-div.polaroid {
-    width: 100%;
-    background-color: white;
-    margin-bottom: 25px;
-}
-
-div.container {
-    text-align: center;
-    padding: 10px 20px;
-}
-
-footer {
-    background-color: #ede342;
-    color: #ff51eb;
-    padding: 20px;
-    text-align: center;
+img {
+    max-width: 100%;
+    height: 100%;
+    border: 5px solid #ff51eb;
 }
