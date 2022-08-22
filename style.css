@@ -95,6 +95,9 @@ body {
 .grid-sizer,
 .grid-item {
     width: 33.333%;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
 }
 
 .grid-item {
