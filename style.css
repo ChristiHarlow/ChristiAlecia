@@ -70,6 +70,12 @@ section#about {
     padding: 30px;
 }
 
+section#pictures {
+    background-color: #ede342;
+    color: black;
+    height: 60vh;
+}
+
 h3 {
     font-size: 60px;
 }
