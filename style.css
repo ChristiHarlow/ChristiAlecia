@@ -75,6 +75,22 @@ section#pictures {
     color: black;
     height: 60vh;
 }
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+/* Create two equal columns that sits next to each other */
+.column {
+    flex: 50%;
+    padding: 0 4px;
+}
+
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+}
 
 h3 {
     font-size: 60px;
@@ -94,40 +110,4 @@ p {
 
 body {
     font-family: sans-serif;
-}
-
-/* ---- .grid-item ---- */
-
-.grid {
-    --gap: 1em;
-    --columns: 3;
-    margin: 0 auto;
-    display: column;
-    columns: var(--columns);
-    gap: var(--gap);
-}
-
-.grid > * {
-    break-inside: avoid;
-    margin-bottom: var(--gap);
-}
-
-.grid > * {
-    margin-bottom: 0em;
-}
-
-.grid-item {
-    width: 33.333%;
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-bottom: 20px;
-}
-
-.grid-item {
-    float: left;
-}
-
-.grid-item img {
-    display: block;
-    max-width: 100%;
 }
