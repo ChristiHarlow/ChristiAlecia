@@ -100,8 +100,7 @@ body {
 
 .grid {
     --gap: 1em;
-    --columns: 4;
-    max-width: 60rem;
+    --columns: 3;
     margin: 0 auto;
     display: column;
     columns: var(--columns);
