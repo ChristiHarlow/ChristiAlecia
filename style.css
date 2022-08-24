@@ -71,7 +71,7 @@ section#about {
 }
 
 section#pictures {
-    background-color: #dfbe99;
+    background-color: #ede342;
 }
 
 * {
@@ -121,10 +121,11 @@ p {
     font-size: 100px;
 }
 
-* {
-    box-sizing: border-box;
-}
-
 body {
     font-family: sans-serif;
+}
+
+footer {
+    font-weight: bold;
+    color: black;
 }
