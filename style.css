@@ -9,6 +9,9 @@ section#intro {
 @media only screen and (max-width: 500px) {
     #intro h1 {
         animation: fadein ease-in 1s;
+        -ms-flex: 100%;
+        flex: 100%;
+        max-width: 100%;
     }
 }
 
