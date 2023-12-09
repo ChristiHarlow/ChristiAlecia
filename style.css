@@ -2,7 +2,11 @@
 section#intro {
     background-color: #ede342;
     color: black;
-    height: 60vh;
+    height: 60vh; /* Default height for larger screens */
+
+    @media only screen and (max-width: 600px) {
+        height: auto; /* Adjust the height for smaller screens, or use a specific value */
+    }
 }
 
 @media only screen and (max-width: 600px) {
