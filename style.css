@@ -1,5 +1,4 @@
 /* https://coolors.co/palette/EDE342-F2BF6C-F69A97-FB76C1-FF51EB */
-
 section#intro {
     background-color: #ede342;
     color: black;
@@ -17,7 +16,7 @@ section#intro {
     #intro h3,
     #intro code,
     #intro #downArrow {
-        font-size: 75px; /* Adjust font size for smaller screens */
+        font-size: 60px; /* Adjust font size for smaller screens */
     }
 }
 
@@ -26,7 +25,7 @@ section#intro {
 }
 
 #intro h3 {
-    font-size: 75px;
+    font-size: 100px;
     margin-top: 20px;
     margin-bottom: 20px;
     opacity: 0;
@@ -113,7 +112,7 @@ section#pictures {
 }
 
 h3 {
-    font-size: 75px;
+    font-size: 60px;
 }
 
 p {
@@ -126,7 +125,7 @@ p {
 }
 
 body {
-    font-family: sans-serif;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; /* Generic sans-serif font family with fallbacks */
 }
 
 footer {
