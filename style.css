@@ -9,9 +9,15 @@ section#intro {
 @media only screen and (max-width: 600px) {
     #intro h1 {
         animation: fadein ease-in 1s;
-        -ms-flex: 100%;
         flex: 100%;
         max-width: 100%;
+        font-size: 40px; /* Adjust font size for smaller screens */
+    }
+
+    #intro h3,
+    #intro code,
+    #intro #downArrow {
+        font-size: 60px; /* Adjust font size for smaller screens */
     }
 }
 
@@ -61,7 +67,7 @@ section#intro {
     animation-duration: 2s;
     animation-fill-mode: forwards;
 }
-#intro #downArroow:hover {
+#intro #downArrow:hover {
     color: #729ea1;
 }
 
@@ -82,16 +88,12 @@ section#pictures {
 }
 
 .row {
-    display: -ms-flexbox; /* IE10 */
     display: flex;
-    -ms-flex-wrap: wrap; /* IE10 */
     flex-wrap: wrap;
     padding: 0 4px;
 }
 
-/* Create four equal columns that sits next to each other */
 .column {
-    -ms-flex: 25%; /* IE10 */
     flex: 25%;
     max-width: 25%;
     padding: 0 4px;
@@ -103,10 +105,8 @@ section#pictures {
     width: 100%;
 }
 
-/* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 800px) {
     .column {
-        -ms-flex: 50%;
         flex: 50%;
         max-width: 50%;
     }
@@ -119,6 +119,7 @@ h3 {
 p {
     font-size: 30px;
 }
+
 #expand {
     color: black;
     font-size: 100px;
